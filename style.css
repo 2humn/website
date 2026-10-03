@@ -1,0 +1,72 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+   
+#logo {
+  font-family: "Charter", "BIZ UDPMincho", "Georgia", "Times New Roman", serif;
+}
+
+body {
+  background: #ffc7cb
+}
+
+.header {
+  border: 3px double #333;
+  background: linear-gradient(rgb(127, 127, 127, 0.75), rgb(130, 130, 130, 0.75));
+  text-align: center;
+  margin-top: 15px;
+  top: 0;
+  height: auto;
+  }
+  
+.sidebar-left {
+  
+  position: fixed;
+  top: 150;
+  margin-bottom: 10px;
+  width: 275px;
+  }
+
+.sidebar-right {
+  position:fixed;
+  right: 10;
+  top: 150;
+  margin-bottom: 10px;
+  width: 275px;  
+  }
+
+.news
+{
+background: linear-gradient(rgb(200, 200, 200, 0.75), rgb(130, 130, 130, 0.75));
+top: 0px;
+left: 30;
+border: 5px solid #7e7e7e;
+
+}
+
+.contact
+{
+background: linear-gradient(rgb(200, 200, 200, 0.75), rgb(130, 130, 130, 0.75));
+top: 50px;
+position: relative;
+left: 0;
+border: 5px solid #7e7e7e;
+width: 275px;
+}
+
+.featured
+{
+background: linear-gradient(rgb(200, 200, 200, 0.75), rgb(130, 130, 130, 0.75));
+top: 40px;
+right: 30;
+border: 5px solid #7e7e7e;
+}
+
+
+  
+.inner {
+  width: 700px;
+  margin-left: 300px;
+  display: inline-block;
+  
+  }
