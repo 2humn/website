@@ -1,4 +1,4 @@
-# Want to contribute to the website? Please read this:
+# Want to contribute to the website? Please read this!
 
 - [a. Want to add arts](#a-want-to-add-arts)
 - [b. Want to add event photos and notes](#b-want-to-add-event-photos-and-notes)
