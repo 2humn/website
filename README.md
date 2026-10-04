@@ -1,20 +1,20 @@
 # Want to contribute to the website? Please read this!
 
-- [a. Want to add arts](#a-want-to-add-arts)
+- [a. Want to add art](#a-want-to-add-arts)
 - [b. Want to add event photos and notes](#b-want-to-add-event-photos-and-notes)
 - [c. Want to add content for updates (sidebar)](#c-want-to-add-content-for-updates-sidebar)
 - [d. Want to change the style](#d-want-to-change-the-style)
 - [e. Want to change the cursor](#e-want-to-change-the-cursor)
 
-## a. Want to add arts
+## a. Want to add art
 
-### How to add arts in main page
+### How to add art in main page
 
 1. Make your file's name as {author}_{name}.png or {author}_{name}.jpg
 2. Put the file under the `imgs/`
 3. Copy and paste the name({author}_{name}.{format}) to the `imgs.csv`, it will automatically extract the name and show on the main page
 
-### How to add arts in art page
+### How to add art in art page
 
 1. Make your file's name as {author}_{name}.png or {author}_{name}.jpg
 2. Put the file under the `imgs/`
