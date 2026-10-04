@@ -298,6 +298,10 @@ body {
   box-shadow: 0 0 0 2px #8aa8d0;
 }
 
+.theme-dot[data-theme="moriya"].active {
+  box-shadow: 0 0 0 2px #66ff66;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
