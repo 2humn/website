@@ -22,23 +22,15 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  cursor: url('/cursor/reimu/reimu.png') 0 0, auto !important;
+  cursor: url('cursor/reimu/reimu.png') 0 0, auto !important;
 }
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-span,
-li {
-  cursor: url('/cursor/reimu/reimu_select.png') 0 0, text !important;
+p, h1, h2, h3, h4, h5, h6, span, li {
+  cursor: url('cursor/reimu/reimu_select.png') 0 0, text !important;
 }
 
 a, button, [onclick], img, .theme-dot, .footer-icon, .footer-icon *, .cal-nav-btn, .cal-cell.has-event, .cal-cell.has-event span {
-  cursor: url('/cursor/reimu/reimu_pointer.png') 0 0, pointer !important;
+  cursor: url('cursor/reimu/reimu_pointer.png') 0 0, pointer !important;
 }
 
 .main {
