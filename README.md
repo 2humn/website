@@ -79,21 +79,21 @@ a. For regular cursor:
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  cursor: url('/cursor/{character}/{character}.png') 0 0, auto !important;
+  cursor: url('/website/cursor/{character}/{character}.png') 0 0, auto !important;
 }
 ```
 
 b. For I-beam:
 ```
 p, h1, h2, h3, h4, h5, h6, span, li {
-  cursor: url('/cursor/{character}/{character}_select.png') 0 0, text !important;
+  cursor: url('/website/cursor/{character}/{character}_select.png') 0 0, text !important;
 }
 ```
 
 c. For pointer:
 ```
 a, button, [onclick], img, .theme-dot, .footer-icon, .footer-icon *, .cal-nav-btn, .cal-cell.has-event, .cal-cell.has-event span {
-  cursor: url('/cursor/{character}/{character}_pointer.png') 0 0, pointer !important;
+  cursor: url('/website/cursor/{character}/{character}_pointer.png') 0 0, pointer !important;
 }
 ```
 

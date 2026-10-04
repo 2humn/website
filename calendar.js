@@ -2,7 +2,7 @@ let touhouEvents = {};
 
 async function loadEvents() {
   try {
-    const res = await fetch('/touhou_days.json');
+    const res = await fetch('/website/touhou_days.json');
     touhouEvents = await res.json();
   } catch (e) {
     console.error('Failed to load touhou_days.json', e);
