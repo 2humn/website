@@ -56,7 +56,7 @@
 
 1. Add the code in `updates.js`, put the code within `<ul class="update-list">`, keep the code as the following format, just need to use the lateast context replace {context}:
 ```
-<li><span class="update-date">{month} {date}</span> {context}</li>
+<li><span class="update-date">{month} {date}, {year}</span> {context}</li>
 ```
 
 ## d. Want to change the style
@@ -70,5 +70,36 @@
 
 ### How to change the cursor
 
-1. Put the file under the `cursor/`
-2. Replace the code in `style.css`, change it to `cursor: url('cursor/{characters}.png') 0 0, auto !important;`, 
+1. Put the file under the `cursor/{character}`
+2. Replace the code in `style.css`, based on your cursor style, there are **3** things can be changed:
+
+a. For regular cursor:
+```
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: url('/cursor/{character}/{character}.png') 0 0, auto !important;
+}
+```
+
+b. For I-beam:
+```
+p, h1, h2, h3, h4, h5, h6, span, li {
+  cursor: url('/cursor/{character}/{character}_select.png') 0 0, text !important;
+}
+```
+
+c. For pointer:
+```
+a, button, [onclick], img, .theme-dot, .footer-icon, .footer-icon *, .cal-nav-btn, .cal-cell.has-event, .cal-cell.has-event span {
+  cursor: url('/cursor/{character}/{character}_pointer.png') 0 0, pointer !important;
+}
+```
+
+3. If your images are too big, put your imgs under `cursor/`, and run the following code:
+```
+python -c "from PIL import Image; import os; [Image.open(f'cursor/{f}').convert('RGBA').resize((32,32),Image.LANCZOS).save(f'cursor/{f}') for f in os.listdir('cursor') if f.lower().endswith(('.png','.jpg','.jpeg'))]"
+```
+
+4. Remember to delete your old images!

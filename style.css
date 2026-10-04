@@ -22,7 +22,23 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  cursor: url('cursor/reimu.png') 0 0, auto !important;
+  cursor: url('/cursor/reimu/reimu.png') 0 0, auto !important;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+li {
+  cursor: url('/cursor/reimu/reimu_select.png') 0 0, text !important;
+}
+
+a, button, [onclick], img, .theme-dot, .footer-icon, .footer-icon *, .cal-nav-btn, .cal-cell.has-event, .cal-cell.has-event span {
+  cursor: url('/cursor/reimu/reimu_pointer.png') 0 0, pointer !important;
 }
 
 .main {
@@ -90,7 +106,7 @@ body {
   align-items: flex-start;
   max-width: 1100px;
   margin: 0 auto;
-  padding-top: 70px;
+  padding-top: 30px;
 }
 
 /* ── This is for the left side update card ── */
@@ -387,6 +403,150 @@ body {
   opacity: 1;
 }
 
+#touhou-calendar {
+  background: var(--color-strip-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 12px;
+  width: 100%;
+  font-size: 0.85rem;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+}
+
+.cal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: var(--color-text-dark);
+}
+
+.cal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  color: var(--color-text-dark);
+}
+
+.cal-title {
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+}
+
+.cal-nav-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: var(--color-accent);
+  transition: color 0.2s ease, transform 0.15s ease;
+  padding: 0 4px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.cal-nav-btn:hover {
+  color: var(--color-text-dark);
+  transform: scale(1.3) rotate(45deg);
+}
+
+.cal-nav-btn:active {
+  transform: scale(0.9) rotate(45deg);
+}
+
+.cal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+}
+
+.cal-day-name {
+  text-align: center;
+  font-size: 0.7rem;
+  color: var(--color-accent);
+  font-weight: bold;
+  padding: 2px 0;
+}
+
+.cal-cell {
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 4px;
+  min-height: 50px;
+  cursor: default;
+}
+
+.cal-cell.today {
+  background: var(--color-primary);
+  font-weight: bold;
+}
+
+.cal-cell.has-event {
+  color: var(--color-accent);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cal-cell.has-event:hover {
+  background: var(--color-primary);
+}
+
+.cal-num {
+  display: block;
+  font-size: 0.95rem;
+}
+
+.cal-dot {
+  font-size: 0.7rem;
+  display: block;
+}
+
+.cal-today-msg {
+  margin-top: 8px;
+  padding: 6px;
+  background: var(--color-primary);
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: var(--color-text-dark);
+  text-align: center;
+}
+
+.cal-event-detail {
+  margin-top: 6px;
+  padding: 6px;
+  background: color-mix(in srgb, var(--color-primary) 40%, white);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  font-size: 0.78rem;
+  color: var(--color-text-dark);
+  min-height: 0;
+  line-height: 1.6;
+}
+
+.cal-credit {
+  margin-top: 6px;
+  font-size: 0.65rem;
+  text-align: right;
+  color: var(--color-text-dark);
+}
+
+.cal-credit a {
+  color: var(--color-text-deeper);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.cal-credit a:hover {
+  color: var(--color-accent);
+}
+
+.cal-cell.empty {
+  background: none;
+}
+
 /* ── This is for the index.html and general ── */
 
 /* ── This is for the faa.html ── */
@@ -545,3 +705,11 @@ body {
 }
 
 /* ── This is for the events.html ── */
+
+/* ── This is for the join.html ── */
+
+.join-page .page-layout {
+  grid-template-columns: 1fr;
+}
+
+/* ── This is for the join.html ── */

@@ -1,0 +1,1461 @@
+{
+  "1-4": [
+    {
+      "name": "Aunn Day",
+      "characters": [
+        "Aunn"
+      ]
+    }
+  ],
+  "1-5": [
+    {
+      "name": "Yumemi Day",
+      "characters": [
+        "Yumemi"
+      ]
+    }
+  ],
+  "1-6": [
+    {
+      "name": "Reimu Day",
+      "characters": [
+        "Reimu"
+      ]
+    }
+  ],
+  "1-7": [
+    {
+      "name": "(Super) Hina Day",
+      "characters": [
+        "Hina"
+      ]
+    }
+  ],
+  "1-8": [
+    {
+      "name": "Kasen Day",
+      "characters": [
+        "Kasen"
+      ]
+    }
+  ],
+  "1-9": [
+    {
+      "name": "Iku Day",
+      "characters": [
+        "Iku"
+      ]
+    }
+  ],
+  "1-10": [
+    {
+      "name": "Highly Responsive to Prayers Day",
+      "characters": [
+        "HRTP"
+      ]
+    },
+    {
+      "name": "Momiji Day",
+      "characters": [
+        "Momiji"
+      ]
+    },
+    {
+      "name": "Yamame Day",
+      "characters": [
+        "Yamame"
+      ]
+    },
+    {
+      "name": "Well (Kisume) Day",
+      "characters": [
+        "Kisume"
+      ]
+    }
+  ],
+  "1-16": [
+    {
+      "name": "Shiki Eiki Day",
+      "characters": [
+        "Eiki"
+      ]
+    }
+  ],
+  "1-22": [
+    {
+      "name": "Merlin Day",
+      "characters": [
+        "Merlin"
+      ]
+    }
+  ],
+  "1-25": [
+    {
+      "name": "Ellen Day",
+      "characters": [
+        "Ellen"
+      ]
+    }
+  ],
+  "1-29": [
+    {
+      "name": "Sumireko Day",
+      "characters": [
+        "Sumireko"
+      ]
+    }
+  ],
+  "2-2": [
+    {
+      "name": "Ordinary Magician's Day",
+      "characters": [
+        "Marisa"
+      ]
+    },
+    {
+      "name": "Seiga Niang Niang day",
+      "characters": [
+        "Seiga"
+      ]
+    }
+  ],
+  "2-4": [
+    {
+      "name": "Youmu Day",
+      "characters": [
+        "Youmu"
+      ]
+    },
+    {
+      "name": "Mokou Day",
+      "characters": [
+        "Mokou"
+      ]
+    }
+  ],
+  "2-6": [
+    {
+      "name": "Story of Eastern Wonderland Day",
+      "characters": [
+        "SOEW"
+      ]
+    }
+  ],
+  "2-7": [
+    {
+      "name": "Toyosatomimi no Miko's Birthday",
+      "characters": [
+        "Miko"
+      ]
+    }
+  ],
+  "2-8": [
+    {
+      "name": "Kutaka Day",
+      "characters": [
+        "Kutaka"
+      ]
+    }
+  ],
+  "2-9": [
+    {
+      "name": "Phantasmagoria of Dim. Dream Day",
+      "characters": [
+        "PoDD"
+      ]
+    }
+  ],
+  "2-10": [
+    {
+      "name": "Futo Day",
+      "characters": [
+        "Futo"
+      ]
+    },
+    {
+      "name": "Nitori Day",
+      "characters": [
+        "Nitori"
+      ]
+    },
+    {
+      "name": "NitoFuto Day",
+      "characters": [
+        "Nitori",
+        "Futo"
+      ]
+    },
+    {
+      "name": "Futatsuiwa Day",
+      "characters": [
+        "Mamizou"
+      ]
+    },
+    {
+      "name": "NEET Day",
+      "characters": [
+        "Kaguya"
+      ]
+    }
+  ],
+  "2-18": [
+    {
+      "name": "Mamizou Day",
+      "characters": [
+        "Mamizou"
+      ]
+    }
+  ],
+  "2-23": [
+    {
+      "name": "Yuyuko Day",
+      "characters": [
+        "Yuyuko"
+      ]
+    }
+  ],
+  "2-25": [
+    {
+      "name": "FuTojiko Day",
+      "characters": [
+        "Futo",
+        "Tojiko"
+      ]
+    }
+  ],
+  "2-29": [
+    {
+      "name": "Miyako Day",
+      "characters": [
+        "Miyako"
+      ]
+    }
+  ],
+  "3-2": [
+    {
+      "name": "Sunny Day",
+      "characters": [
+        "Sunny"
+      ]
+    }
+  ],
+  "3-3": [
+    {
+      "name": "Hina-matsuri",
+      "characters": [
+        "Hina"
+      ]
+    }
+  ],
+  "3-4": [
+    {
+      "name": "Myon Day",
+      "characters": [
+        "Youmu"
+      ]
+    }
+  ],
+  "3-5": [
+    {
+      "name": "Miko Day",
+      "characters": [
+        "Reimu",
+        "Sanae"
+      ]
+    },
+    {
+      "name": "Toyosatomimi no Miko Day",
+      "characters": [
+        "Miko"
+      ]
+    }
+  ],
+  "3-6": [
+    {
+      "name": "Zanmu Day",
+      "characters": [
+        "Zanmu"
+      ]
+    }
+  ],
+  "3-7": [
+    {
+      "name": "Sanae Day",
+      "characters": [
+        "Sanae"
+      ]
+    },
+    {
+      "name": "Murasa Day",
+      "characters": [
+        "Murasa"
+      ]
+    }
+  ],
+  "3-9": [
+    {
+      "name": "Mishaguji Day",
+      "characters": [
+        "Mishaguji"
+      ]
+    },
+    {
+      "name": "Sakuya Day",
+      "characters": [
+        "Sakuya"
+      ]
+    },
+    {
+      "name": "Sagume Day",
+      "characters": [
+        "Sagume"
+      ]
+    }
+  ],
+  "3-10": [
+    {
+      "name": "Satori Day",
+      "characters": [
+        "Satori"
+      ]
+    },
+    {
+      "name": "Sariel Day",
+      "characters": [
+        "Sariel"
+      ]
+    }
+  ],
+  "3-12": [
+    {
+      "name": "MikoToji Day",
+      "characters": [
+        "Miko",
+        "Tojiko"
+      ]
+    }
+  ],
+  "3-13": [
+    {
+      "name": "ZanHisa Day",
+      "characters": [
+        "Zanmu",
+        "Hisami"
+      ]
+    }
+  ],
+  "3-18": [
+    {
+      "name": "Inaba Day",
+      "characters": [
+        "Tewi",
+        "Reisen"
+      ]
+    }
+  ],
+  "3-20": [
+    {
+      "name": "Mystia Day",
+      "characters": []
+    },
+    {
+      "name": "MikoFuto Day",
+      "characters": [
+        "Miko",
+        "Futo"
+      ]
+    }
+  ],
+  "3-21": [
+    {
+      "name": "Sunny Day",
+      "characters": [
+        "Sunny"
+      ]
+    }
+  ],
+  "3-24": [
+    {
+      "name": "Sannyo Day",
+      "characters": [
+        "Sannyo"
+      ]
+    }
+  ],
+  "4-6": [
+    {
+      "name": "Youmu Day",
+      "characters": [
+        "Youmu"
+      ]
+    }
+  ],
+  "4-10": [
+    {
+      "name": "Parsee Day",
+      "characters": [
+        "Parsee"
+      ]
+    }
+  ],
+  "4-23": [
+    {
+      "name": "Kosuzu Day",
+      "characters": [
+        "Kosuzu"
+      ]
+    }
+  ],
+  "4-28": [
+    {
+      "name": "Shizuha Day",
+      "characters": [
+        "Shizuha"
+      ]
+    }
+  ],
+  "4-30": [
+    {
+      "name": "Shirasawa Day",
+      "characters": [
+        "Keine"
+      ]
+    }
+  ],
+  "5-1": [
+    {
+      "name": "Fête du Muguet (Medicine)",
+      "characters": [
+        "Medicine"
+      ]
+    }
+  ],
+  "5-5": [
+    {
+      "name": "Mystic Square Day",
+      "characters": [
+        "MysticSquare"
+      ]
+    },
+    {
+      "name": "Kokoro's Days",
+      "characters": [
+        "Kokoro"
+      ]
+    },
+    {
+      "name": "Hand-held Wriggle Day",
+      "characters": [
+        "Wriggle"
+      ]
+    },
+    {
+      "name": "Yuugenmagan Day",
+      "characters": [
+        "YuugenMagan"
+      ]
+    }
+  ],
+  "5-9": [
+    {
+      "name": "Koakuma Day",
+      "characters": [
+        "Koakuma"
+      ]
+    }
+  ],
+  "5-10": [
+    {
+      "name": "Kotohime Day",
+      "characters": [
+        "Kotohime"
+      ]
+    }
+  ],
+  "5-14": [
+    {
+      "name": "Koishi Day",
+      "characters": [
+        "Koishi"
+      ]
+    }
+  ],
+  "5-15": [
+    {
+      "name": "Meiling Day",
+      "characters": [
+        "Meiling"
+      ]
+    },
+    {
+      "name": "KoiKoko Day",
+      "characters": [
+        "Koishi",
+        "Kokoro"
+      ]
+    },
+    {
+      "name": "Raiko Day",
+      "characters": [
+        "Raiko"
+      ]
+    }
+  ],
+  "5-16": [
+    {
+      "name": "Love-Colored Day",
+      "characters": [
+        "Marisa"
+      ]
+    }
+  ],
+  "5-18": [
+    {
+      "name": "Sanae Day",
+      "characters": [
+        "Sanae"
+      ]
+    }
+  ],
+  "5-19": [
+    {
+      "name": "Hecatia Day",
+      "characters": [
+        "Sanae"
+      ]
+    }
+  ],
+  "5-26": [
+    {
+      "name": "Kokoro Day",
+      "characters": [
+        "Kokoro"
+      ]
+    }
+  ],
+  "6-1": [
+    {
+      "name": "MuraIchi Day",
+      "characters": [
+        "Murasa",
+        "Ichirin"
+      ]
+    }
+  ],
+  "6-2": [
+    {
+      "name": "Mai Day",
+      "characters": [
+        "Mai"
+      ]
+    }
+  ],
+  "6-3": [
+    {
+      "name": "Murasa Day",
+      "characters": [
+        "Murasa"
+      ]
+    }
+  ],
+  "6-4": [
+    {
+      "name": "Wriggle Day",
+      "characters": [
+        "Wiggle"
+      ]
+    }
+  ],
+  "6-5": [
+    {
+      "name": "Junko Day",
+      "characters": [
+        "Junko"
+      ]
+    }
+  ],
+  "6-6": [
+    {
+      "name": "Sekibanki Day",
+      "characters": [
+        "Sekibanki"
+      ]
+    },
+    {
+      "name": "Suwako Day",
+      "characters": [
+        "Suwako"
+      ]
+    }
+  ],
+  "6-7": [
+    {
+      "name": "JunHeca Day",
+      "characters": [
+        "Junko",
+        "Hecatia"
+      ]
+    }
+  ],
+  "6-9": [
+    {
+      "name": "Patchouli Day",
+      "characters": [
+        "Patchouli"
+      ]
+    },
+    {
+      "name": "Shingyoku Day",
+      "characters": [
+        "Shingyoku"
+      ]
+    }
+  ],
+  "6-10": [
+    {
+      "name": "Belated Patchouli Day",
+      "characters": [
+        "Patchouli"
+      ]
+    }
+  ],
+  "6-11": [
+    {
+      "name": "Umbrella Day",
+      "characters": [
+        "Kogasa"
+      ]
+    }
+  ],
+  "6-14": [
+    {
+      "name": "Unconscious's Day",
+      "characters": [
+        "Koishi"
+      ]
+    }
+  ],
+  "6-16": [
+    {
+      "name": "MariAli Day",
+      "characters": [
+        "Marisa",
+        "Alice"
+      ]
+    }
+  ],
+  "6-18": [
+    {
+      "name": "Hatate Day",
+      "characters": [
+        "Hatate"
+      ]
+    }
+  ],
+  "6-24": [
+    {
+      "name": "Nue Day",
+      "characters": [
+        "Nue"
+      ]
+    }
+  ],
+  "6-27": [
+    {
+      "name": "Yuka-Merry Day",
+      "characters": [
+        "Yukari",
+        "Merry"
+      ]
+    }
+  ],
+  "7-2": [
+    {
+      "name": "Nazrin Day",
+      "characters": [
+        "Nazrin"
+      ]
+    }
+  ],
+  "7-4": [
+    {
+      "name": "Flan's Day",
+      "characters": [
+        "Flandre"
+      ]
+    },
+    {
+      "name": "Nameless Characters' Day",
+      "characters": [
+        "Daiyousei",
+        "Koakuma",
+        "Tokiko",
+        "Tsuchinoko"
+      ]
+    }
+  ],
+  "7-6": [
+    {
+      "name": "Namusan Day",
+      "characters": [
+        "Byakuren"
+      ]
+    },
+    {
+      "name": "Lyrica Day",
+      "characters": [
+        "Lyrica"
+      ]
+    }
+  ],
+  "7-7": [
+    {
+      "name": "Rumia Day",
+      "characters": [
+        "Rumia"
+      ]
+    },
+    {
+      "name": "Marisa Day",
+      "characters": [
+        "Marisa"
+      ]
+    }
+  ],
+  "7-9": [
+    {
+      "name": "Remilia Day",
+      "characters": [
+        "Remilia"
+      ]
+    },
+    {
+      "name": "AyaCirno Day",
+      "characters": [
+        "Aya",
+        "Cirno"
+      ]
+    }
+  ],
+  "7-12": [
+    {
+      "name": "Iku-san Day",
+      "characters": [
+        "Iku"
+      ]
+    }
+  ],
+  "7-14": [
+    {
+      "name": "Sunflower Day",
+      "characters": [
+        "Yuuka"
+      ]
+    },
+    {
+      "name": "YuukAya Day",
+      "characters": [
+        "Yuuka",
+        "Aya"
+      ]
+    }
+  ],
+  "7-16": [
+    {
+      "name": "Alice Day",
+      "characters": [
+        "Alice"
+      ]
+    }
+  ],
+  "7-20": [
+    {
+      "name": "Nazrin Day",
+      "characters": [
+        "Nazrin"
+      ]
+    }
+  ],
+  "7-21": [
+    {
+      "name": "Nemuno Day",
+      "characters": [
+        "Nemuno"
+      ]
+    }
+  ],
+  "7-23": [
+    {
+      "name": "Aya Day",
+      "characters": [
+        "Aya"
+      ]
+    }
+  ],
+  "7-26": [
+    {
+      "name": "Kana Anaberal Day",
+      "characters": [
+        "Kana"
+      ]
+    }
+  ],
+  "7-27": [
+    {
+      "name": "Suika Day",
+      "characters": [
+        "Suika"
+      ]
+    }
+  ],
+  "7-28": [
+    {
+      "name": "Konngara Day",
+      "characters": [
+        "Konngara"
+      ]
+    }
+  ],
+  "8-1": [
+    {
+      "name": "Wakasagihime Day",
+      "characters": [
+        "Wakasagihime"
+      ]
+    },
+    {
+      "name": "Nitori Day",
+      "characters": [
+        "Nitori"
+      ]
+    }
+  ],
+  "8-2": [
+    {
+      "name": "Haniwa Day",
+      "characters": [
+        "Mayumi",
+        "Keiki"
+      ]
+    },
+    {
+      "name": "Udonge Day",
+      "characters": [
+        "Reisen"
+      ]
+    }
+  ],
+  "8-3": [
+    {
+      "name": "Kanako Day",
+      "characters": [
+        "Kanako"
+      ]
+    },
+    {
+      "name": "Meira Day",
+      "characters": [
+        "Meira"
+      ]
+    }
+  ],
+  "8-4": [
+    {
+      "name": "Tojiko Day",
+      "characters": [
+        "Tojiko"
+      ]
+    },
+    {
+      "name": "Hashihime Day",
+      "characters": [
+        "Parsee"
+      ]
+    },
+    {
+      "name": "Kyouko Day",
+      "characters": [
+        "Kyouko"
+      ]
+    }
+  ],
+  "8-5": [
+    {
+      "name": "(kinda) Eirin Day",
+      "characters": [
+        "Eirin"
+      ]
+    },
+    {
+      "name": "Kokoro Day",
+      "characters": [
+        "Kokoro"
+      ]
+    }
+  ],
+  "8-6": [
+    {
+      "name": "Youmu Day",
+      "characters": [
+        "Youmu"
+      ]
+    },
+    {
+      "name": "Aya/Reimu Day",
+      "characters": [
+        "Aya",
+        "Reimu"
+      ]
+    }
+  ],
+  "8-7": [
+    {
+      "name": "Yamame Day",
+      "characters": [
+        "Yamame"
+      ]
+    },
+    {
+      "name": "Yuuka Day",
+      "characters": [
+        "Yuuka"
+      ]
+    }
+  ],
+  "8-8": [
+    {
+      "name": "Lyrica Day",
+      "characters": [
+        "Lyrica"
+      ]
+    },
+    {
+      "name": "Daiyousei Day",
+      "characters": [
+        "Daiyousei"
+      ]
+    },
+    {
+      "name": "Seija Day",
+      "characters": [
+        "Seija"
+      ]
+    },
+    {
+      "name": "Wriggle Day",
+      "characters": [
+        "Wriggle"
+      ]
+    },
+    {
+      "name": "Eternity Day",
+      "characters": [
+        "Eternity"
+      ]
+    },
+    {
+      "name": "Super Yatsuhashi Day",
+      "characters": [
+        "Yatsuhashi",
+        "Benben"
+      ]
+    }
+  ],
+  "8-9": [
+    {
+      "name": "Hina Day",
+      "characters": [
+        "Hina"
+      ]
+    },
+    {
+      "name": "Hakurei Day",
+      "characters": [
+        "Reimu"
+      ]
+    },
+    {
+      "name": "Baku Day",
+      "characters": [
+        "Doremy"
+      ]
+    },
+    {
+      "name": "Yakumo Day",
+      "characters": [
+        "Yukari",
+        "Ran"
+      ]
+    },
+    {
+      "name": "Nightbug Day",
+      "characters": [
+        "Wriggle"
+      ]
+    }
+  ],
+  "8-10": [
+    {
+      "name": "Hatate Day",
+      "characters": [
+        "Hatate"
+      ]
+    }
+  ],
+  "8-11": [
+    {
+      "name": "Takane Day",
+      "characters": [
+        "Takane"
+      ]
+    }
+  ],
+  "8-12": [
+    {
+      "name": "Lunasa Day",
+      "characters": [
+        "Lunasa"
+      ]
+    }
+  ],
+  "8-20": [
+    {
+      "name": "AyaNito Day",
+      "characters": [
+        "Aya",
+        "Nitori"
+      ]
+    },
+    {
+      "name": "Mayumi Day",
+      "characters": [
+        "Mayumi"
+      ]
+    }
+  ],
+  "8-21": [
+    {
+      "name": "Perfect Freeze day",
+      "characters": [
+        "Cirno"
+      ]
+    }
+  ],
+  "8-24": [
+    {
+      "name": "SatoKoi Day",
+      "characters": [
+        "Satori",
+        "Koishi"
+      ]
+    }
+  ],
+  "8-28": [
+    {
+      "name": "Haniwa Day",
+      "characters": [
+        "Mayumi",
+        "Keiki"
+      ]
+    },
+    {
+      "name": "MayuKeiki Day",
+      "characters": [
+        "Mayumi",
+        "Keiki"
+      ]
+    }
+  ],
+  "9-6": [
+    {
+      "name": "Suwako Day",
+      "characters": [
+        "Suwako"
+      ]
+    },
+    {
+      "name": "AyaSana Day",
+      "characters": [
+        "Aya",
+        "Sanae"
+      ]
+    },
+    {
+      "name": "Saki Day",
+      "characters": [
+        "Saki"
+      ]
+    },
+    {
+      "name": "Eiki Day",
+      "characters": [
+        "Eiki"
+      ]
+    }
+  ],
+  "9-8": [
+    {
+      "name": "Kaguya Day",
+      "characters": [
+        "Kaguya"
+      ]
+    }
+  ],
+  "9-9": [
+    {
+      "name": "Cirno Day",
+      "characters": [
+        "Cirno"
+      ]
+    }
+  ],
+  "9-10": [
+    {
+      "name": "Ichirin Day",
+      "characters": [
+        "Ichirin"
+      ]
+    }
+  ],
+  "9-13": [
+    {
+      "name": "Nine-Tailed Day",
+      "characters": [
+        "Ran"
+      ]
+    }
+  ],
+  "9-19": [
+    {
+      "name": "Tsukumo Day",
+      "characters": [
+        "Benben",
+        "Yatsuhashi"
+      ]
+    },
+    {
+      "name": "Kogasa Day",
+      "characters": [
+        "Kogasa"
+      ]
+    }
+  ],
+  "9-21": [
+    {
+      "name": "Aki Equinox",
+      "characters": [
+        "Shizuha",
+        "Minoriko"
+      ]
+    }
+  ],
+  "9-23": [
+    {
+      "name": "Kagerou Day",
+      "characters": [
+        "Kagerou"
+      ]
+    }
+  ],
+  "9-30": [
+    {
+      "name": "Kurumi Day",
+      "characters": [
+        "Kurumi"
+      ]
+    },
+    {
+      "name": "Kourindou Anniversary",
+      "characters": [
+        "Rinnosuke",
+        "Tokiko"
+      ]
+    }
+  ],
+  "10-3": [
+    {
+      "name": "Doremy Day",
+      "characters": [
+        "Doremy"
+      ]
+    }
+  ],
+  "10-4": [
+    {
+      "name": "Teruyo Day",
+      "characters": [
+        "Kaguya"
+      ]
+    },
+    {
+      "name": "Tenshi Day",
+      "characters": [
+        "Tenshi"
+      ]
+    },
+    {
+      "name": "Toyohime Day",
+      "characters": [
+        "Toyohime"
+      ]
+    }
+  ],
+  "10-5": [
+    {
+      "name": "Tenko Day",
+      "characters": [
+        "Tenshi"
+      ]
+    }
+  ],
+  "10-6": [
+    {
+      "name": "Third Tenshi Day",
+      "characters": [
+        "Tenshi"
+      ]
+    }
+  ],
+  "10-7": [
+    {
+      "name": "Rumia Day",
+      "characters": [
+        "Rumia"
+      ]
+    }
+  ],
+  "10-9": [
+    {
+      "name": "Tengu Day",
+      "characters": [
+        "Aya",
+        "Momiji",
+        "Hatate",
+        "Megumu"
+      ]
+    },
+    {
+      "name": "Tenkyuu Day",
+      "characters": [
+        "Chimata"
+      ]
+    },
+    {
+      "name": "Akyuu Day",
+      "characters": [
+        "Akyuu"
+      ]
+    }
+  ],
+  "10-10": [
+    {
+      "name": "Super Ichirin Day",
+      "characters": [
+        "Ichirin"
+      ]
+    },
+    {
+      "name": "Chen Day",
+      "characters": [
+        "Chen"
+      ]
+    },
+    {
+      "name": "Ten Desires Day",
+      "characters": [
+        "TenDesires"
+      ]
+    }
+  ],
+  "10-15": [
+    {
+      "name": "MariAli Day",
+      "characters": [
+        "Marisa",
+        "Alice"
+      ]
+    }
+  ],
+  "10-16": [
+    {
+      "name": "ReiMariAli Day",
+      "characters": [
+        "Reimu",
+        "Marisa",
+        "Alice"
+      ]
+    }
+  ],
+  "10-25": [
+    {
+      "name": "Tojiko Day",
+      "characters": [
+        "Tojiko"
+      ]
+    }
+  ],
+  "10-26": [
+    {
+      "name": "Okuu Day",
+      "characters": [
+        "Utsuho"
+      ]
+    }
+  ],
+  "10-28": [
+    {
+      "name": "Double Koishi Day",
+      "characters": [
+        "Koishi"
+      ]
+    }
+  ],
+  "11-5": [
+    {
+      "name": "Good Renko Day",
+      "characters": [
+        "Renko"
+      ]
+    }
+  ],
+  "11-6": [
+    {
+      "name": "Good Reimu Day",
+      "characters": [
+        "Reimu"
+      ]
+    }
+  ],
+  "11-9": [
+    {
+      "name": "Good Okuu Day",
+      "characters": [
+        "Utsuho"
+      ]
+    }
+  ],
+  "11-10": [
+    {
+      "name": "Kisume Day",
+      "characters": [
+        "Kisume"
+      ]
+    }
+  ],
+  "11-11": [
+    {
+      "name": "Satori Day",
+      "characters": [
+        "Satori"
+      ]
+    },
+    {
+      "name": "Onbashira Day",
+      "characters": [
+        "Kanako",
+        "Suwako",
+        "Sanae"
+      ]
+    }
+  ],
+  "11-12": [
+    {
+      "name": "Good Hifuu Day",
+      "characters": [
+        "Renko",
+        "Merry"
+      ]
+    }
+  ],
+  "11-14": [
+    {
+      "name": "Eika Day",
+      "characters": [
+        "Eika"
+      ]
+    }
+  ],
+  "11-18": [
+    {
+      "name": "Jo'on Day",
+      "characters": [
+        "Jo'on"
+      ]
+    }
+  ],
+  "11-19": [
+    {
+      "name": "Good Iku-san Day",
+      "characters": [
+        "Iku"
+      ]
+    }
+  ],
+  "11-24": [
+    {
+      "name": "Youmu Day",
+      "characters": [
+        "Youmu"
+      ]
+    }
+  ],
+  "11-27": [
+    {
+      "name": "Megumu Day",
+      "characters": [
+        "Megumu"
+      ]
+    }
+  ],
+  "12-4": [
+    {
+      "name": "Hecatia Day",
+      "characters": [
+        "Hecatia"
+      ]
+    }
+  ],
+  "12-9": [
+    {
+      "name": "Hifuu Club Day",
+      "characters": [
+        "Renko",
+        "Merry"
+      ]
+    }
+  ],
+  "12-10": [
+    {
+      "name": "IchiFuto Day",
+      "characters": [
+        "Ichirin",
+        "Futo"
+      ]
+    }
+  ],
+  "12-12": [
+    {
+      "name": "Hifuu Hifuu Day",
+      "characters": [
+        "Renko",
+        "Merry"
+      ]
+    }
+  ],
+  "12-21": [
+    {
+      "name": "Letty Solstice",
+      "characters": [
+        "Letty"
+      ]
+    }
+  ],
+  "12-24": [
+    {
+      "name": "Yaku-ristmas Eve",
+      "characters": [
+        "Hina"
+      ]
+    }
+  ]
+}

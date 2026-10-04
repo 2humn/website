@@ -5,20 +5,20 @@
   <meta charset="UTF-8">
   <title>UMN Touhou Club</title>
   <link href="style.css" rel="stylesheet" type="text/css" media="all">
-  <script src="date.js" defer></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <script src="theme.js"></script>
 </head>
 
 
 <body>
-
   <div class="header">
     <h1 id="logo"><a href="index.html">Touhou Club of the University of Minnesota</a></h1>
     <ul class="nav-links">
       <li><a href="#">About</a></li>
       <li><a href="pages/faa.html">Art</a></li>
+      <li><a href="pages/fafic.html">Fiction</a></li>
       <li><a href="pages/events.html">Events</a></li>
+      <li><a href="pages/join.html">Join Us</a></li>
     </ul>
   </div>
 
@@ -64,9 +64,14 @@
         <p>LARPers and other newcomers are welcome here, everyone has to start somewhere.</p>
       </section>
 
+      <section>
+        <div id="touhou-calendar"></div>
+        <script src="calendar.js"></script>
+      </section>
+
       <section class="links-section">
         <h2>Links</h2>
-        Email: <a href="mailto:2humn@tutanota.de">2humn@tutanota.de</a><br>
+        <span>Email:</span> <a href="mailto:2humn@tutanota.de">2humn@tutanota.de</a><br>
         <a href="https://www.websitegoodies.com/guestbook.php?a=view&id=1741560">Guestbook</a><br>
         <a href="pages/faa.html">Featured Artwork Archive</a><br>
         <a href="https://open.spotify.com/playlist/16VnuvSYcm5MkBt9EatOq9?si=581fd68eb5e04eec">Spotify Playlist</a>
@@ -151,17 +156,6 @@
       .catch(() => {
         document.querySelector('.hero-image').textContent = '[ no images found ]';
       });
-  </script>
-
-  <script>
-    document.querySelectorAll('.theme-dot').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const t = themes[btn.dataset.theme];
-        Object.entries(t).forEach(([k, v]) => document.documentElement.style.setProperty(k, v));
-        document.querySelectorAll('.theme-dot').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-      });
-    });
   </script>
 
 </body>
