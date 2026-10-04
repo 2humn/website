@@ -1,70 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>UMN Touhou Club</title>
-    <link href="style.css" rel="stylesheet" type="text/css" media="all">
-    <script src="date.js"></script>
+  <meta charset="UTF-8">
+  <title>UMN Touhou Club</title>
+  <link href="style.css" rel="stylesheet" type="text/css" media="all">
+  <script src="date.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="theme.js"></script>
 </head>
+
+
 <body>
-<div class="header">
-  <div>
-  <h1 id="logo">Touhou Club of the University of Minnesota </h1>
-  <h3>SECOND MEETING DATE TO BE DETERMINED, SEE YOU AT FOLWELL</h3>
+
+  <div class="header">
+    <h1 id="logo"><a href="index.html">Touhou Club of the University of Minnesota</a></h1>
+    <ul class="nav-links">
+      <li><a href="#">About</a></li>
+      <li><a href="pages/faa.html">Art</a></li>
+      <li><a href="pages/events.html">Events</a></li>
+    </ul>
   </div>
- </div>
 
-<div class="inner"> 
-<h1>Welcome to the UMN Touhou Club!</h1>
-<p>Welcome to the Touhou Club of UMN - Twin Cities, so far it isn't official yet. To enter the Discord you must verify with your @umn.edu student e-mail</p>
-<h2>When will the first meeting be?</h2>
-<p>I don't have a specific date yet; please await Discord server updates or visit this website later.</p>
-<h2>What should be brought to meetings?</h2>
-<p>Laptop, other than that I don't care</p>
-<h2>lowk i larp 2hu because i like the fumos😂✌️ fuh playing the games twin</h2>
-<p>LARPERs and other newcomers are welcome here, everyone has to start somewhere</p>
-</div>
+  <div class="page-layout">
 
-  
-<div class="sidebar-left">
-<div class="news">
-<h2>Updates</h2>
-<p>September 7th, 2026 - Welcome to the UMN Touhou Club!</p>
-<p>September 7th, 2026 - UMN Touhou Club website is opened, I'll have it on neocities once I find a somewhere move it.</p>
-<p>September 9th, 2026 - BAKA BAKA</p>
-<p>September 9th, 2026 - Touhou EoSD New Classic is released.</p>
-<p>September 10th, 2026 - Instagram page opened</p>
-<p>September 20th, 2026 - We have a playlist now</p>
-<p>September 25th, 2026 - Our first meeting!</p>
-<p>October 2nd, 2026 - Our second meeting...</p>
-</div>
-</div>
+    <aside class="sidebar-updates"></aside>
 
-<div class="sidebar-right">
-<div class="featured">
-<h2>Featured Artwork</h2>
-<img src="ft4.png" alt="Featured Artwork 3" width="70%" height="70%">
-<p>By <a href="https://x.com/ThisPunchingBag">@Punch</a></p>
-</div>
-</div>
+    <main class="main">
+      <section class="hero">
+        <div class="hero-text">
+          <h2 class="hero-title">UMN Touhou Club</h2>
+          <div class="theme-circles">
+            <button class="theme-dot active" data-theme="scarlet" style="background:#ffc7cb" title="Scarlet"></button>
+            <button class="theme-dot" data-theme="sakura" style="background:#fde8f5" title="Sakura"></button>
+            <button class="theme-dot" data-theme="eientei" style="background:#d8e8c0" title="Eientei"></button>
+            <button class="theme-dot" data-theme="sanzu" style="background:#c8d8f0" title="Sanzu"></button>
+          </div>
+          <p class="hero-desc">Welcome to the Touhou Club of UMN – Twin Cities. Not yet official, but very real. LARPers
+            and newcomers welcome — everyone starts somewhere.</p>
+        </div>
+        <div class="hero-image">
+          <div class="carousel">
+            <a href="pages/faa.html">
+              <img id="carousel-img-a" class="active" src="" alt="" />
+              <img id="carousel-img-b" src="" alt="" />
+            </a>
+            <div class="carousel-author" id="carousel-author"></div>
+            <div class="carousel-dots" id="carousel-dots"></div>
+          </div>
+        </div>
+      </section>
+      <div class="event-strip">
+        <span class="event-label">Next meeting</span>
+        <span class="event-title">Third meeting - date TBD, should be every Fri. 4pm - 6pm</span>
+        <span class="event-location">Folwell Hall</span>
+      </div>
 
-<div class="contact">
-<h2>Links</h2>
-<p>Email Admin: 2humn@tutanota.de</p>
-<a href="https://discord.gg/XPkmejzgx">Discord Server</a> <br/>
-<a href="https://www.websitegoodies.com/guestbook.php?a=view&id=1741560">Guestbook</a> <br/>
-<a href="faa.html">Featured Artwork Archive</a> <br/>
-<a href="https://open.spotify.com/playlist/16VnuvSYcm5MkBt9EatOq9?si=581fd68eb5e04eec&pt=024c5e33ac9c341d22aea872d1b9deee">Spotify Playlist</a>
-</div>
+      <section class="main-content">
+        <h2>What should be brought to meetings?</h2>
+        <p>Laptop, other than that I don't care.</p>
+        <h2>lowk i larp 2hu because i like the fumos 😂✌️</h2>
+        <p>LARPers and other newcomers are welcome here, everyone has to start somewhere.</p>
+      </section>
 
+      <section class="links-section">
+        <h2>Links</h2>
+        Email: <a href="mailto:2humn@tutanota.de">2humn@tutanota.de</a><br>
+        <a href="https://www.websitegoodies.com/guestbook.php?a=view&id=1741560">Guestbook</a><br>
+        <a href="pages/faa.html">Featured Artwork Archive</a><br>
+        <a href="https://open.spotify.com/playlist/16VnuvSYcm5MkBt9EatOq9?si=581fd68eb5e04eec">Spotify Playlist</a>
+      </section>
 
-<form action="/action_page.php">
-  <label for="theme">Theme:</label>
-  <select name="theme" id="theme" onchange="theme(this)">
-    <option value="Scarlet">Scarlet</option>
-    <option value="Sakura">Sakura</option>
-    <option value="Eientei">Eientei</option>
-    <option value="Sanzu">Sanzu</option>
-  </select>
-</form>
+    </main>
+  </div>
+  <script src="updates.js"></script>
+  <footer class="footer">
+    <a href="https://discord.gg/XPkmejzgx" class="footer-icon" title="Discord"><i class="fa-brands fa-discord"></i></a>
+    <a href="https://www.instagram.com/" class="footer-icon" title="Instagram"><i
+        class="fa-brands fa-instagram"></i></a>
+    <a href="https://open.spotify.com/playlist/16VnuvSYcm5MkBt9EatOq9?si=581fd68eb5e04eec" class="footer-icon"
+      title="Spotify"><i class="fa-brands fa-spotify"></i></a>
+    <a href="mailto:2humn@tutanota.de" class="footer-icon" title="Email"><i class="fa-solid fa-envelope"></i></a>
+  </footer>
 
-<br />
+  <script>
+    fetch('imgs.csv')
+      .then(r => r.text())
+      .then(text => {
+        const files = text.split('\n').map(l => l.trim()).filter(Boolean);
+        if (!files.length) return;
+
+        let current = 0;
+        let useA = true;
+        const imgA = document.getElementById('carousel-img-a');
+        const imgB = document.getElementById('carousel-img-b');
+        const author = document.getElementById('carousel-author');
+        const dotsEl = document.getElementById('carousel-dots');
+
+        files.forEach((_, i) => {
+          const d = document.createElement('span');
+          d.className = 'carousel-dot' + (i === 0 ? ' active' : '');
+          d.onclick = () => show(i);
+          dotsEl.appendChild(d);
+        });
+
+        function getSrc(file) {
+          return file.includes('.') ? 'imgs/' + file : 'imgs/' + file + '.png';
+        }
+
+        function show(i) {
+          current = i;
+          const file = files[i];
+          const next = useA ? imgB : imgA;
+          const curr = useA ? imgA : imgB;
+
+          const tryExt = (exts) => {
+            if (!exts.length) return;
+            next.src = 'imgs/' + file + '.' + exts[0];
+            next.onerror = () => tryExt(exts.slice(1));
+          };
+
+          next.onload = () => {
+            next.classList.add('active');
+            curr.classList.remove('active');
+            useA = !useA;
+          };
+
+          if (file.includes('.')) {
+            next.src = 'imgs/' + file;
+          } else {
+            tryExt(['png', 'jpg', 'jpeg']);
+          }
+
+          const authorName = file.split('_')[0];
+          author.textContent = '© ' + authorName;
+          document.querySelectorAll('.carousel-dot').forEach((d, j) => {
+            d.classList.toggle('active', j === i);
+          });
+        }
+
+        imgA.onload = () => {
+          imgA.classList.add('active');
+          setInterval(() => show((current + 1) % files.length), 3500);
+        };
+        imgA.src = getSrc(files[0]);
+        const authorName = files[0].split('_')[0];
+        author.textContent = '© ' + authorName;
+      })
+      .catch(() => {
+        document.querySelector('.hero-image').textContent = '[ no images found ]';
+      });
+  </script>
+
+  <script>
+    document.querySelectorAll('.theme-dot').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const t = themes[btn.dataset.theme];
+        Object.entries(t).forEach(([k, v]) => document.documentElement.style.setProperty(k, v));
+        document.querySelectorAll('.theme-dot').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      });
+    });
+  </script>
+
 </body>
+
+</html>

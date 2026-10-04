@@ -1,72 +1,543 @@
 /* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
-   
-#logo {
-  font-family: "Charter", "BIZ UDPMincho", "Georgia", "Times New Roman", serif;
+
+/* ── Please put all style things here! ── */
+
+/* ── This is for the font, import others if you want! ── */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap');
+
+:root {
+  --color-primary: #ffc7cb;
+  --color-accent: #c08090;
+  --color-text-dark: #5a2a30;
+  --color-text-deeper: #2a1015;
+  --color-strip-bg: #fff8f8;
+  --color-border: #e0d0d2;
+  --color-author-bg: rgba(42, 16, 21, 0.7);
+  --color-author-text: #f5dde2;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: url('cursor/reimu.png') 0 0, auto !important;
+}
+
+.main {
+  padding-bottom: 60px;
 }
 
 body {
-  background: #ffc7cb
+  background: #fff;
+  font-family: "Fredoka", sans-serif;
+  color: #2a2a2a;
 }
 
+/* ── This is for the index.html ── */
+
+/* ── This is for the header ── */
 .header {
-  border: 3px double #333;
-  background: linear-gradient(rgb(127, 127, 127, 0.75), rgb(130, 130, 130, 0.75));
-  text-align: center;
-  margin-top: 15px;
-  top: 0;
-  height: auto;
-  }
-  
-.sidebar-left {
-  
   position: fixed;
-  top: 150;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 32px;
+}
+
+
+/* ── If we have any we should replace, now it is only the title ── */
+#logo {
+  font-size: 17px;
+  font-weight: bold;
+  color: var(--color-text-dark);
+  cursor: pointer;
+}
+
+#logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ── Navigation ── */
+.nav-links {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.nav-links a {
+  font-family: sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  color: var(--color-text-dark);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.page-layout {
+  display: flex;
+  align-items: flex-start;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+/* ── This is for the left side update card ── */
+.sidebar-updates {
+  width: 220px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 70px;
+  padding: 28px 20px 28px 24px;
+  border-right: 1px solid #eee;
+  min-height: calc(100vh - 70px);
+}
+
+.sidebar-title {
+  font-family: sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 14px;
+}
+
+.update-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.update-list li {
+  font-size: 13px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.update-date {
+  display: block;
+  font-family: sans-serif;
+  font-size: 11px;
+  color: var(--color-accent);
+  margin-bottom: 1px;
+}
+
+
+/* ── This is for the main content ── */
+.main {
+  flex: 1;
+  padding: 32px 40px 48px 36px;
+  min-width: 0;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e8e0e2;
+  margin-bottom: 20px;
+}
+
+.hero-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--color-text-deeper);
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+
+.hero-desc {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.7;
+  max-width: 480px;
+}
+
+.event-strip {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 16px;
+  border-left: 3px solid var(--color-primary);
+  background: var(--color-strip-bg);
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.event-label {
+  font-family: sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  white-space: nowrap;
+}
+
+.event-title {
+  font-size: 15px;
+  color: var(--color-text-deeper);
+}
+
+.event-location {
+  font-size: 13px;
+  color: #888;
+}
+
+.event-link {
+  font-family: sans-serif;
+  font-size: 12px;
+  color: var(--color-accent);
+  text-decoration: none;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.event-link:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  margin-bottom: 28px;
+  font-size: 15px;
+  line-height: 1.75;
+  color: #333;
+}
+
+.main-content h2 {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 6px;
+  color: var(--color-text-deeper);
+}
+
+.main-content p {
   margin-bottom: 10px;
-  width: 275px;
-  }
+}
 
-.sidebar-right {
-  position:fixed;
-  right: 10;
-  top: 150;
+.links-section {
+  margin-bottom: 28px;
+}
+
+.links-section h2 {
+  font-family: sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-accent);
   margin-bottom: 10px;
-  width: 275px;  
-  }
-
-.news
-{
-background: linear-gradient(rgb(200, 200, 200, 0.75), rgb(130, 130, 130, 0.75));
-top: 0px;
-left: 30;
-border: 5px solid #7e7e7e;
-
 }
 
-.contact
-{
-background: linear-gradient(rgb(200, 200, 200, 0.75), rgb(130, 130, 130, 0.75));
-top: 50px;
-position: relative;
-left: 0;
-border: 5px solid #7e7e7e;
-width: 275px;
+.links-section a,
+.links-section p {
+  font-size: 14px;
+  color: var(--color-text-dark);
+  text-decoration: none;
+  margin-bottom: 4px;
 }
 
-.featured
-{
-background: linear-gradient(rgb(200, 200, 200, 0.75), rgb(130, 130, 130, 0.75));
-top: 40px;
-right: 30;
-border: 5px solid #7e7e7e;
+.links-section a:hover {
+  text-decoration: underline;
 }
 
+.theme-circles {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
 
-  
-.inner {
-  width: 700px;
-  margin-left: 300px;
-  display: inline-block;
-  
-  }
+.theme-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.theme-dot:hover {
+  transform: scale(1.2);
+}
+
+.theme-dot.active {
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.35);
+}
+
+.theme-dot {
+  border: none;
+}
+
+.theme-dot[data-theme="scarlet"].active {
+  box-shadow: 0 0 0 2px #e8919a;
+}
+
+.theme-dot[data-theme="sakura"].active {
+  box-shadow: 0 0 0 2px #e8b8d8;
+}
+
+.theme-dot[data-theme="eientei"].active {
+  box-shadow: 0 0 0 2px #9ab89a;
+}
+
+.theme-dot[data-theme="sanzu"].active {
+  box-shadow: 0 0 0 2px #8aa8d0;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: var(--color-primary);
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 32px;
+  z-index: 999;
+}
+
+.footer-icon {
+  color: var(--color-text-dark);
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.footer-icon:hover {
+  color: var(--color-text-deeper);
+}
+
+/* ── This is for the img display on the main page ── */
+.hero-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #f5eaec;
+  border: 1px solid var(--color-border);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.carousel {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.carousel img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  top: 0;
+  left: 0;
+}
+
+.carousel img.active {
+  opacity: 1;
+}
+
+.carousel-author {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-author-bg);
+  color: var(--color-author-text);
+  font-family: sans-serif;
+  font-size: 11px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+
+.carousel:hover .carousel-author {
+  opacity: 1;
+}
+
+/* ── This is for the index.html and general ── */
+
+/* ── This is for the faa.html ── */
+.gallery-main {
+  max-width: 1200px;
+  padding: 32px 48px 48px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.gallery-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 320px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 1px solid var(--color-border);
+  display: block;
+}
+
+.gallery-item .art-author {
+  font-family: sans-serif;
+  font-size: 12px;
+  color: var(--color-accent);
+  letter-spacing: 0.06em;
+}
+
+/* ── Show the whole img when click ── */
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox.open {
+  display: flex;
+}
+
+.lightbox img {
+  max-width: 90vw;
+  max-height: 85vh;
+  object-fit: contain;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 28px;
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* ── This is for the faa.html ── */
+
+/* ── This is for the events.html ── */
+
+.events-main {
+  max-width: 860px;
+  padding: 32px 40px 80px;
+}
+
+.event-entry {
+  display: flex;
+  gap: 32px;
+  padding: 28px 0;
+  border-bottom: 1px solid var(--color-border);
+  align-items: flex-start;
+}
+
+.event-entry:last-child {
+  border-bottom: none;
+}
+
+.event-meta {
+  flex-shrink: 0;
+  width: 50px;
+  text-align: right;
+}
+
+.event-meta-date {
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--color-text-deeper);
+  line-height: 1;
+}
+
+.event-meta-month,
+.event-meta-year {
+  font-family: sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-top: 4px;
+}
+
+.event-divider {
+  width: 1px;
+  background: var(--color-border);
+  align-self: stretch;
+  flex-shrink: 0;
+}
+
+.event-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.event-body h3 {
+  font-size: 18px;
+  color: var(--color-text-deeper);
+  margin-bottom: 6px;
+}
+
+.event-body p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
+
+.event-gallery {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.event-gallery img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 1px solid var(--color-border);
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.event-gallery img:hover {
+  opacity: 0.85;
+}
+
+/* ── This is for the events.html ── */
