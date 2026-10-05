@@ -4,10 +4,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Events</title>
+  <title id="lol">Club Events!</title>
   <link href="../style.css" rel="stylesheet" type="text/css" media="all">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <script src="../theme.js"></script>
+  <script>
+  var texts = [
+  "Club Events!",
+  "Club Events",
+  "club events or something",
+  "This is what we do here at club",
+  "Stneve bulc",
+  "you clicked the link genius where do you think you are"
+  ];
+  
+  document.getElementById('lol').innerHTML = texts[Math.floor(Math.random()*texts.length)];
+  </script>
 </head>
 
 <body>
@@ -114,7 +126,6 @@
       if (e.key === 'Escape') closeLightbox();
     });
   </script>
-
 </body>
 
 </html>
