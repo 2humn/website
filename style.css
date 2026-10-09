@@ -25,11 +25,28 @@
   cursor: url('./cursor/kogasa/character.png') 0 0, auto !important;
 }
 
-p, h1, h2, h3, h4, h5, h6, span, li {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+li {
   cursor: url('./cursor/kogasa/character_select.png') 0 0, text !important;
 }
 
-a, button, [onclick], img, .theme-dot, .footer-icon, .footer-icon *, .cal-nav-btn, .cal-cell.has-event, .cal-cell.has-event span {
+a,
+button,
+[onclick],
+img,
+.theme-dot,
+.footer-icon,
+.footer-icon *,
+.cal-nav-btn,
+.cal-cell.has-event,
+.cal-cell.has-event span {
   cursor: url('./cursor/kogasa/character_pointer.png') 0 0, pointer !important;
 }
 
@@ -57,6 +74,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 10px 32px;
+  flex-wrap: wrap;
 }
 
 
@@ -110,6 +128,7 @@ body {
   padding: 28px 20px 28px 24px;
   border-right: 1px solid #eee;
   min-height: calc(100vh - 70px);
+  order: 0;
 }
 
 .sidebar-title {
@@ -148,6 +167,7 @@ body {
   flex: 1;
   padding: 32px 40px 48px 36px;
   min-width: 0;
+  order: 1;
 }
 
 .hero {
@@ -705,3 +725,177 @@ body {
 }
 
 /* ── This is for the join.html ── */
+
+/* ── This is for the mobile version ── */
+
+@media (max-width: 500px) {
+  .header {
+    padding: 8px 16px;
+    gap: 0;
+  }
+
+  #logo {
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 8px;
+  }
+
+  .nav-links {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6px 14px;
+    padding-top: 8px;
+    border-top: 1px solid rgba(90, 42, 48, 0.15);
+  }
+
+  .nav-links a {
+    font-size: 11px;
+  }
+
+  .page-layout {
+    flex-direction: column;
+    max-width: 100%;
+    padding-top: 80px;
+    margin: 0;
+  }
+
+  .main {
+    order: 1 !important;
+    width: 100% !important;
+    padding: 16px !important;
+    min-width: 0 !important;
+    flex: none !important;
+    margin-bottom: 30px;
+  }
+
+  /* Sidebar shows at bottom */
+  .sidebar-updates {
+    order: 2 !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    position: static !important;
+    min-height: unset !important;
+    border-right: none !important;
+    border-top: 1px solid #eee;
+    padding: 16px !important;
+    flex-shrink: 1 !important;
+    margin-bottom: 30px;
+  }
+
+  .update-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  .hero-title {
+    font-size: 22px;
+  }
+
+  .hero-desc {
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  .carousel {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  /* Event */
+  .event-strip {
+    flex-direction: column;
+    gap: 4px;
+    padding: 10px 12px;
+  }
+
+  /* Calendar */
+  #touhou-calendar {
+    font-size: 0.7rem;
+    padding: 6px;
+  }
+
+  .cal-cell {
+    min-height: 26px;
+    padding: 2px 0;
+  }
+
+  .cal-num {
+    font-size: 0.72rem;
+  }
+
+  .cal-dot {
+    font-size: 0.5rem;
+  }
+
+  .cal-title {
+    font-size: 0.78rem;
+  }
+
+  .cal-day-name {
+    font-size: 0.58rem;
+  }
+
+  /* Gallery */
+  .gallery-main {
+    max-width: 100%;
+    padding: 16px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .gallery-item img {
+    height: 160px;
+  }
+
+  .events-main {
+    max-width: 100%;
+    padding: 16px;
+  }
+
+  .event-entry {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .event-divider {
+    display: none;
+  }
+
+  .event-meta {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+  }
+
+  .event-gallery img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .footer {
+    gap: 14px;
+    padding: 8px 16px;
+  }
+}
+
+/* ── This is for the mobile version ── */

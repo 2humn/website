@@ -4,18 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script>
-  var texts = [
-  "Artworks",
-  "Artworks, ze~",
-  ];
-
-  document.getElementById('lol').innerHTML = texts[Math.floor(Math.random()*texts.length)];
-  </script>
   <title id="lol">Artworks</title>
+  <script>
+    var texts = [
+      "Artworks",
+      "Artworks, ze~",
+    ];
+    document.getElementById('lol').innerHTML = texts[Math.floor(Math.random() * texts.length)];
+  </script>
   <link href="../style.css" rel="stylesheet" type="text/css" media="all">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
   <script>
     function openLightbox(src) {
       document.getElementById('lightbox-img').src = src;
@@ -28,7 +26,6 @@
       if (e.key === 'Escape') closeLightbox();
     });
   </script>
-
   <script src="../theme.js"></script>
 </head>
 
